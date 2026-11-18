@@ -1,0 +1,10 @@
+{
+  "question": "Comment supprimer un tablespace ?",
+  "top_pages": [
+    7,
+    1,
+    1,
+    4
+  ],
+  "answer": "Pour supprimer un tablespace, vous devez utiliser la requête DROP TABLESPACE nom_tblspc [INCLUDING CONTENTS [AND DATAFILES] CASCADE CONSTRAINTS]. \n\n*Source: Chapter-4.pdf · PDF p. 7*"
+}
