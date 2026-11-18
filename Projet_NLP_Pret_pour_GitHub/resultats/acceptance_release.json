@@ -1,0 +1,337 @@
+{
+  "timestamp_utc": "2026-11-17T16:19:27.025629+00:00",
+  "course": "Chapter-4.pdf",
+  "sha256": "85e041e330c40e76b91d3e758f929aca8e7824fc8505cc055d367bba53abf938",
+  "passages": 40,
+  "model": "qwen2.5:3b",
+  "retrieval": "semantic",
+  "cases": [
+    {
+      "name": "quiz_Easy_3_1",
+      "status": "llm_validated",
+      "llm_questions": 3,
+      "requested": 3,
+      "questions": [
+        {
+          "question": "Qu'est-ce qu'un tablespace ?",
+          "options": [
+            "Une unité logique de stockage pour une base de données",
+            "Un fichier de données unique",
+            "Un segment de données spécifique à une application",
+            "Une zone de mémoire pour les données"
+          ],
+          "answer": 0,
+          "explanation": "Chapitre 4 Gestion des tablespaces Une base de données est constituée d’une ou de plusieurs unités logiques de stockage appelées tablespaces.",
+          "source_id": "fcbab1fa2d-1-0",
+          "quote": "Chapitre 4 Gestion des tablespaces Une base de données est constituée d’une ou de plusieurs unités logiques de stockage appelées tablespaces .",
+          "generation": "llm"
+        },
+        {
+          "question": "Qu'est-ce que SYSAUX ?",
+          "options": [
+            "Un tablespace de données",
+            "Un tablespace d'index",
+            "Un tablespace de système",
+            "Un tablespace de journal"
+          ],
+          "answer": 2,
+          "explanation": "D’un autre côté, le tablespace SYSAUX (pour SYSTEM AUXILIARY ) inclut les données utilisées par certains fonctionnalités et options d’Oracle database.",
+          "source_id": "fcbab1fa2d-1-89",
+          "quote": "D’un autre côté, le tablespace SYSAUX (pour SYSTEM AUXILIARY ) inclut les données utilisées par certains fonctionnalités et options d’Oracle database.",
+          "generation": "llm"
+        },
+        {
+          "question": "Qu'est-ce que DB_CREATE_FILE_DEST ?",
+          "options": [
+            "Un type de tablespace",
+            "Un paramètre de gestion des fichiers de données",
+            "Un type de segment",
+            "Un type de requête"
+          ],
+          "answer": 1,
+          "explanation": "Oracle Database offre une fonctionnalité de gestion automatique des fichiers de données, (gérant également automatiquement les fichiers journaux, les fichiers journaux archivés, etc.) appelée Oracle-Managed Files (OMF ).",
+          "source_id": "fcbab1fa2d-8-0",
+          "quote": "Les clauses à utiliser sont TABLESPACE et STORAGE dans la requête de création de la table ou de l’index (du segment plus généralement).",
+          "generation": "llm"
+        }
+      ],
+      "seconds": 14.2
+    },
+    {
+      "name": "quiz_Medium_3_2",
+      "status": "llm_validated",
+      "llm_questions": 3,
+      "requested": 3,
+      "questions": [
+        {
+          "question": "Quel est le rôle d'un tablespace SYSAUX dans une base de données ?",
+          "options": [
+            "SYSAUX est un tablespace utilisé pour stocker les données d'application.",
+            "SYSAUX est un tablespace réservé pour les opérations d'entrée/sortie.",
+            "SYSAUX est un tablespace utilisé pour stocker les données système.",
+            "SYSAUX est un tablespace réservé pour les opérations de réplication."
+          ],
+          "answer": 2,
+          "explanation": "du cours est le seul élément qui concerne le tablespace SYSAUX et son utilisation spécifique.",
+          "source_id": "fcbab1fa2d-1-89",
+          "quote": "D’un autre côté, le tablespace SYSAUX (pour SYSTEM AUXILIARY ) inclut les données utilisées par certains fonctionnalités et options d’Oracle database.",
+          "generation": "llm"
+        },
+        {
+          "question": "Quelle est la différence entre un tablespace permanent et un tablespace auto-extensible ?",
+          "options": [
+            "Un tablespace auto-extensible ne nécessite pas de taille maximale définie.",
+            "Un tablespace permanent ne peut pas être étendu une fois créé.",
+            "Un tablespace auto-extensible peut être étendu à l'infini sans limite.",
+            "Un tablespace permanent nécessite une taille maximale définie."
+          ],
+          "answer": 0,
+          "explanation": "du cours et du cours expliquent les différences entre les deux types de tablespaces, mais du cours est plus général.",
+          "source_id": "fcbab1fa2d-1-222",
+          "quote": "Créer pour chaque application un tablespace de données et un tablespace d’indexes.",
+          "generation": "llm"
+        },
+        {
+          "question": "Quelle est la fonction d'Oracle-Managed Files dans la gestion des fichiers de données ?",
+          "options": [
+            "Il permet de créer des tablespaces sans spécifier de fichier de données.",
+            "Il permet de créer des tablespaces avec une taille maximale fixe.",
+            "Il permet de gérer automatiquement les fichiers de données et journaux.",
+            "Il permet de créer des tablespaces avec une taille minimale fixe."
+          ],
+          "answer": 2,
+          "explanation": "du cours et du cours expliquent la fonction d'Oracle-Managed Files, mais du cours est plus général.",
+          "source_id": "fcbab1fa2d-4-143",
+          "quote": "4.2.3 Le paramètre DB_CREATE_FILE_DEST Oracle Database offre une fonctionnalité de gestion automatique des fichiers de données, (gérant également automatiquement les fichiers jour naux, les fichiers journaux archivés, etc.) appelée Oracle-Managed Files (OMF ).",
+          "generation": "llm"
+        }
+      ],
+      "seconds": 16.1
+    },
+    {
+      "name": "quiz_Hard_3_3",
+      "status": "llm_validated",
+      "llm_questions": 3,
+      "requested": 3,
+      "questions": [
+        {
+          "question": "Quel est le rôle d'un tablespace SYSAUX dans une base de données ?",
+          "options": [
+            "Il est utilisé pour stocker les données d'application.",
+            "Il est utilisé pour stocker les données système.",
+            "Il est utilisé pour stocker les données temporaires.",
+            "Il est utilisé pour stocker les données d'annulation."
+          ],
+          "answer": 1,
+          "explanation": "Selon l'évidence du cours, le tablespace SYSAUX inclut les données utilisées par certains fonctionnalités et options d'Oracle database.",
+          "source_id": "fcbab1fa2d-1-89",
+          "quote": "D’un autre côté, le tablespace SYSAUX (pour SYSTEM AUXILIARY ) inclut les données utilisées par certains fonctionnalités et options d’Oracle database.",
+          "generation": "llm"
+        },
+        {
+          "question": "Quelle est la taille minimale d'un fichier de données dans une base de données Oracle ?",
+          "options": [
+            "La taille minimale est de 100K.",
+            "La taille minimale est de 128K.",
+            "La taille minimale est de 256K.",
+            "La taille minimale est de 512K."
+          ],
+          "answer": 1,
+          "explanation": "Selon l'évidence du cours, la taille d'un fichier de données dépend étroitement de la taille du bloc de données défini également par l'administrateur DB_BLOCK_SIZE.",
+          "source_id": "fcbab1fa2d-1-311",
+          "quote": "Il faut dans ce cas allouer des zones mémoires DB Cache différentes DB_nK_CACHE_SIZE .",
+          "generation": "llm"
+        },
+        {
+          "question": "Quelle est la clause utilisée pour spécifier la taille maximale d'un fichier de données dans une base de données Oracle ?",
+          "options": [
+            "MAXSIZE",
+            "MAXEXTENTS",
+            "MAXBLOCKS",
+            "MAXFILES"
+          ],
+          "answer": 0,
+          "explanation": "Selon l'évidence du cours, la clause MAXSIZE détermine la taille maximale que le fichier peut atteindre par les incréments.",
+          "source_id": "fcbab1fa2d-7-0",
+          "quote": "Le mot clé INCLUDING CONTENTS est obligatoire si le tablespace contient des tables/in dexes.",
+          "generation": "llm"
+        }
+      ],
+      "seconds": 15.0
+    },
+    {
+      "name": "quiz_Easy_8_4",
+      "status": "practice_fallback",
+      "llm_questions": 7,
+      "requested": 8,
+      "questions": [
+        {
+          "question": "Qu'est-ce qu'un tablespace ?",
+          "options": [
+            "Une unité logique de stockage pour une base de données",
+            "Un fichier de données unique",
+            "Une fonctionnalité d'Oracle",
+            "Une zone mémoire pour les données"
+          ],
+          "answer": 0,
+          "explanation": "du cours",
+          "source_id": "fcbab1fa2d-1-0",
+          "quote": "Un tablespace correspond physiquement à un ou plusi eurs fichiers de données (voir Figure 3).",
+          "generation": "llm"
+        },
+        {
+          "question": "Qu'est-ce que SYSAUX ?",
+          "options": [
+            "Un tablespace de données",
+            "Un tablespace d'indexes",
+            "Un tablespace utilisé par certaines fonctionnalités d'Oracle",
+            "Un tablespace permanent"
+          ],
+          "answer": 2,
+          "explanation": "du cours",
+          "source_id": "fcbab1fa2d-1-89",
+          "quote": "D’un autre côté, le tablespace SYSAUX (pour SYSTEM AUXILIARY ) inclut les données utilisées par certains fonctionnalités et options d’Oracle database.",
+          "generation": "llm"
+        },
+        {
+          "question": "Quels tablespace ne peuvent pas être mis en OFFLINE ?",
+          "options": [
+            "SYSTEM",
+            "UNDO",
+            "Temporaire",
+            "Tous"
+          ],
+          "answer": 0,
+          "explanation": "du cours",
+          "source_id": "fcbab1fa2d-5-68",
+          "quote": "Il faut savoir aussi que le tablespace SYSTEM , les tablespaces UNDO et les tablespaces temporaires ne peuvent pas être mis en OFFLINE .",
+          "generation": "llm"
+        },
+        {
+          "question": "Qu'est-ce qu'un segment dans un tablespace ?",
+          "options": [
+            "Un segment est une unité de stockage dans un tablespace. Il est créé avec la clause STORAGE.",
+            "Un segment est une unité de stockage dans un tablespace. Il est créé avec la clause TABLESPACE.",
+            "Un segment est une unité de stockage dans un tablespace. Il est créé avec la clause NEXT.",
+            "Un segment est une unité de stockage dans un tablespace. Il est créé avec la clause MAXEXTENTS."
+          ],
+          "answer": 0,
+          "explanation": "du cours : Les clauses à utiliser sont TABLESPACE et STORAGE dans la requête de création de la table ou de l'index (du segment plus généralement).",
+          "source_id": "fcbab1fa2d-8-0",
+          "quote": "Les clauses à utiliser sont TABLESPACE et STORAGE dans la requête de création de la table ou de l’index (du segment plus généralement).",
+          "generation": "llm"
+        },
+        {
+          "question": "Qu'est-ce que DB_BLOCK_SIZE ?",
+          "options": [
+            "C'est la taille maximale d'un fichier de données. ",
+            "C'est la taille minimale d'un fichier de données. ",
+            "C'est la taille d'un bloc de données défini par l'administrateur. ",
+            "C'est la taille d'un segment dans un tablespace. "
+          ],
+          "answer": 2,
+          "explanation": "du cours : taille d'un fichier de données dépend étroitement de la taille du bloc de données défini également par l'administrateur DB_BLOCK_SIZE.",
+          "source_id": "fcbab1fa2d-3-0",
+          "quote": "taille d’un fichier de données dépend étroitement d e la taille du bloc de données défini également par l’administrateur DB_BLOCK_SIZE .",
+          "generation": "llm"
+        },
+        {
+          "question": "Qu'est-ce qu'un tablespace permanent ?",
+          "options": [
+            "Un tablespace permanent est un tablespace qui ne peut pas être modifié.",
+            "Un tablespace permanent est un tablespace qui peut être modifié.",
+            "Un tablespace permanent est un tablespace qui est utilisé pour les fichiers de données.",
+            "Un tablespace permanent est un tablespace qui est utilisé pour les fichiers de journaux."
+          ],
+          "answer": 1,
+          "explanation": "du cours : Pour créer un tablespace, il faut que la base qui va le contenir soit déjà créée.",
+          "source_id": "fcbab1fa2d-2-270",
+          "quote": "4.2.1 Création des tablespaces permanents Pour créer un tablespace, il faut que la base qui v a le contenir soit déjà créée.",
+          "generation": "llm"
+        },
+        {
+          "question": "Quelle est la taille initiale d'une extension pour un segment dans un tablespace ?",
+          "options": [
+            "La taille initiale est déterminée par la clause MAXSIZE.",
+            "La taille initiale est déterminée par la clause NEXT.",
+            "La taille initiale est déterminée par la clause MINEXTENTS.",
+            "La taille initiale est déterminée par la clause MAXEXTENTS."
+          ],
+          "answer": 1,
+          "explanation": "du cours : 950/128=7.42, alors Oracle alloue initialement 8 extensions de 128K.",
+          "source_id": "fcbab1fa2d-8-200",
+          "quote": "taille de la première extension à allouer dès que le segment est créé.",
+          "generation": "llm"
+        },
+        {
+          "question": "Complétez exactement cet extrait du cours :\n\nChapitre 4 Gestion des ____ Une base de données est constituée d’une ou de plusieurs unités logiques de stockage appelées ____ .",
+          "options": [
+            "possible",
+            "tablespaces",
+            "assigné",
+            "REQ"
+          ],
+          "answer": 1,
+          "explanation": "Le passage original utilise « tablespaces ». Il s’agit d’un exercice de rappel fondé sur le texte.",
+          "source_id": "fcbab1fa2d-1-0",
+          "quote": "Chapitre 4 Gestion des tablespaces Une base de données est constituée d’une ou de plusieurs unités logiques de stockage appelées tablespaces .",
+          "generation": "extractive"
+        }
+      ],
+      "seconds": 50.1
+    },
+    {
+      "name": "summary_Short",
+      "status": "llm_validated",
+      "text": "### Tablespaces SYSTEM et SYSAUX\n\nLes tablespaces SYSTEM et SYSAUX sont systématiquement créés lors de la création d'une base de données Oracle. Le tablespace SYSTEM contient les tables systèmes du dictionnaire de données et ne peut être renommé, supprimé ou mis en OFFLINE. Le tablespace SYSAUX est utilisé pour les données utilisées par certaines fonctionnalités et options d'Oracle database. \n\n*Source: Chapter-4.pdf · PDF p. 1*\n\n### Stockage des parties transactionnelles et décisionnelles\n\nIl est recommandé de stocker les parties transactionnelles et décisionnelles de la base de données dans des tablespaces différents pour des stratégies de sauvegarde différentes et des tailles de blocs différentes par tablespace. Il est important de surveiller et de contrôler l'espace de stockage de chaque tablespace de manière continue, notamment pour des tâches administratives comme la mise en ligne/offline des données. \n\n*Source: Chapter-4.pdf · PDF p. 1*\n\n### Types de tablespaces\n\nLa répartition des fichiers de données sur plusieurs disques peut améliorer la performance d'Oracle en évitant les contentions sur les opérations d'entrée/sortie. Il existe trois types de tablespaces : l'UNDO TABLESPACE, utilisé uniquement pour stocker les informations d'annulation, et les tablespaces transactionnelles et décisionnelles. TEMPORARY TABLESPACE est un tablespace qui inclut des segments temporaires pour stocker données volumineuses issues d'opérations lourdes. Ils étaient auparavant placés dans des tablespaces permanents. Oracle 9i a introduit un mode de gestion automatique pour ces segments temporaires. \n\n*Source: Chapter-4.pdf · PDF p. 10*",
+      "seconds": 182.5
+    },
+    {
+      "name": "summary_Medium",
+      "status": "llm_validated",
+      "text": "### Tablespaces SYSTEM et SYSAUX\n\nLes tablespaces SYSTEM et SYSAUX sont systématiquement créés lors de la création d'une base de données Oracle. Le tablespace SYSTEM contient les tables systèmes du dictionnaire de données et ne peut être renommé, supprimé ou mis en OFFLINE. Le tablespace SYSAUX est utilisé pour les données utilisées par certaines fonctionnalités et options d'Oracle database. \n\n*Source: Chapter-4.pdf · PDF p. 1*\n\n### Stockage des parties transactionnelles et décisionnelles\n\nIl est recommandé de stocker les parties transactionnelles et décisionnelles de la base de données dans des tablespaces différents pour des stratégies de sauvegarde différentes et des tailles de blocs différentes par tablespace. Il est important de surveiller et de contrôler l'espace de stockage de chaque tablespace de manière continue, notamment pour des tâches administratives comme la mise en ligne/offline des données. \n\n*Source: Chapter-4.pdf · PDF p. 2, 10*\n\n### Types de tablespaces\n\nLa répartition des fichiers de données sur plusieurs disques peut améliorer la performance d'Oracle en évitant les contentions sur les opérations d'entrée/sortie. Il existe trois types de tablespaces : l'UNDO TABLESPACE, utilisé uniquement pour stocker les informations d'annulation, et les tablespaces transactionnelles et décisionnelles. TEMPORARY TABLESPACE est un tablespace qui inclut des segments temporaires pour stocker données volumineuses issues d'opérations lourdes. Ils étaient auparavant placés dans des tablespaces permanents. Oracle 9i a introduit un mode de gestion automatique pour ces segments temporaires. \n\n*Source: Chapter-4.pdf · PDF p. 2*\n\n### Tablespaces permanents et BIGFILE\n\nLes tablespaces permanents sont conçus pour stocker exclusivement les index et les tables (données utilisateur). Les tablespaces de type BIGFILE sont composés d'un seul fichier de données volumineux, avec une taille maximale de 232 blocs (plus de 4 milliards de blocs). La clause NEXT indique la taille de l'extension incrémentée, tandis que la clause MAXSIZE détermine la taille maximale d'un fichier. MAXSIZE peut avoir la valeur UNLIMITED, permettant ainsi une extension jusqu'à la limite du disque dur. La clause LOGGING indique que les opérations de mise à jour dans un tablespace seront par défaut journalisées. Si l'utilisateur ne spécifie pas le mode (LOGGING ou NOLOGGING), les modifications sont journalisées par défaut. FORCE LOGGING signifie que toutes les modifications sur les segments du tablespace seront journalisées, même si le mode est NOLOGGING. \n\n*Source: Chapter-4.pdf · PDF p. 2, 6–9*\n\n### Commandes ALTER TABLESPACE\n\nALTER TABLESPACE fact FORCE LOGGING : active la journalisation des modifications dans le tablespace fact, indépendamment des requêtes utilisateurs en mode NOLOGGING. Cela permet de maintenir la cohérence des données même si les requêtes utilisateurs ne journalisent pas. ALTER TABLESPACE fact OFFLINE : met le tablespace fact en mode OFFLINE, ce qui permet de déplacer les fichiers de données. Les tablespaces gérés par le dictionnaire de données sont créés avec la clause EXTENT MANAGEMENT DICTIONARY. \n\n*Source: Chapter-4.pdf · PDF p. 6–7, 9*\n\n### Gestion des extensions\n\nALTER TABLESPACE : permet de renommer un tablespace depuis la version 10g. Les tablespaces gérés par le dictionnaire de données stockent les informations concernant les extensions dans le dictionnaire de données, tandis que les tablespaces gérés localement stockent ces informations dans les entêtes des fichiers de données. Les tablespaces gérés localement sont par défaut créés avec la gestion des extensions automatique (AUTOALLOCATE). Oracle allouera initialement les deux premières extensions à la suite de la requête de création, c.-à-d., 220K d’espace contigu dans un des fichiers de données du tablespace data. Une fois cet espace totalement utilisé, Oracle allouera une extension de 180K puis une extension de 270K, ainsi de suite. \n\n*Source: Chapter-4.pdf · PDF p. 8–9*",
+      "seconds": 38.1
+    },
+    {
+      "name": "summary_Detailed",
+      "status": "llm_validated",
+      "text": "### Tablespaces SYSTEM et SYSAUX\n\nLes tablespaces SYSTEM et SYSAUX sont systématiquement créés lors de la création d'une base de données Oracle. Le tablespace SYSTEM contient les tables systèmes du dictionnaire de données et ne peut être renommé, supprimé ou mis en OFFLINE. Le tablespace SYSAUX est utilisé pour les données utilisées par certaines fonctionnalités et options d'Oracle database. \n\n*Source: Chapter-4.pdf · PDF p. 1*\n\n### Stockage des parties transactionnelles et décisionnelles\n\nIl est recommandé de stocker les parties transactionnelles et décisionnelles de la base de données dans des tablespaces différents pour des stratégies de sauvegarde différentes et des tailles de blocs différentes par tablespace. Il est important de surveiller et de contrôler l'espace de stockage de chaque tablespace de manière continue, notamment pour des tâches administratives comme la mise en ligne/offline des données. \n\n*Source: Chapter-4.pdf · PDF p. 1*\n\n### Types de tablespaces\n\nLa répartition des fichiers de données sur plusieurs disques peut améliorer la performance d'Oracle en évitant les contentions sur les opérations d'entrée/sortie. Il existe trois types de tablespaces : l'UNDO TABLESPACE, utilisé uniquement pour stocker les informations d'annulation, et les tablespaces transactionnelles et décisionnelles. TEMPORARY TABLESPACE est un tablespace qui inclut des segments temporaires pour stocker données volumineuses issues d'opérations lourdes. Ils étaient auparavant placés dans des tablespaces permanents. Oracle 9i a introduit un mode de gestion automatique pour ces segments temporaires. \n\n*Source: Chapter-4.pdf · PDF p. 2*\n\n### Tablespaces permanents\n\nLes tablespaces permanents sont conçus pour stocker exclusivement les index et les tables (données utilisateur). Les tablespaces de type BIGFILE sont composés d'un seul fichier de données volumineux, avec une taille maximale de 232 blocs (plus de 4 milliards de blocs). La clause NEXT indique la taille de l'extension incrémentée, tandis que la clause MAXSIZE détermine la taille maximale d'un fichier. MAXSIZE peut avoir la valeur UNLIMITED, permettant ainsi une extension jusqu'à la limite du disque dur. La clause LOGGING indique que les opérations de mise à jour dans un tablespace seront par défaut journalisées. Si l'utilisateur ne spécifie pas le mode (LOGGING ou NOLOGGING), les modifications sont journalisées par défaut. FORCE LOGGING signifie que toutes les modifications sur les segments du tablespace seront journalisées, même si le mode est NOLOGGING. Pour étendre un tablespace permanent, il existe deux solutions : redimensionner un fichier du tablespace ou ajouter un nouveau fichier de données. \n\n*Source: Chapter-4.pdf · PDF p. 2*\n\n### ALTER TABLESPACE fact FORCE LOGGING\n\nALTER TABLESPACE fact FORCE LOGGING : active la journalisation des modifications dans le tablespace fact, indépendamment des requêtes utilisateurs en mode NOLOGGING. Cela permet de maintenir la cohérence des données même si les requêtes utilisateurs ne journalisent pas. \n\n*Source: Chapter-4.pdf · PDF p. 6*\n\n### ALTER TABLESPACE fact OFFLINE\n\nALTER TABLESPACE fact OFFLINE : met le tablespace fact en mode OFFLINE, ce qui permet de déplacer les fichiers de données. Les tablespaces gérés par le dictionnaire de données sont créés avec la clause EXTENT MANAGEMENT DICTIONARY. \n\n*Source: Chapter-4.pdf · PDF p. 6–7*\n\n### ALTER TABLESPACE\n\nALTER TABLESPACE : permet de renommer un tablespace depuis la version 10g. Les tablespaces gérés par le dictionnaire de données stockent les informations concernant les extensions dans le dictionnaire de données, tandis que les tablespaces gérés localement stockent ces informations dans les entêtes des fichiers de données. \n\n*Source: Chapter-4.pdf · PDF p. 6–7*\n\n### Gestion des extensions locales\n\nLes tablespaces gérés localement sont par défaut créés avec la gestion des extensions automatique (AUTOALLOCATE). Oracle allouera initialement les deux premières extensions à la suite de la requête de création, c.-à-d., 220K d’espace contigu dans un des fichiers de données du tablespace data. Une fois cet espace totalement utilisé, Oracle allouera une extension de 180K puis une extension de 270K, ainsi de suite. \n\n*Source: Chapter-4.pdf · PDF p. 7, 9–10*\n\n### Gestion des extensions locales\n\nUn tablespace est géré localement si lors de sa création, on a mentionné la clause EXTENT MANAGEMENT LOCAL UNIFORM SIZE val, ou EXTENT MANAGEMENT LOCAL AUTOALLOCATE. La taille de l'espace initial est de 200+300+450=950K (étant donné que MINEXTENTS est de 3, donc il faut allouer les trois premières extensions en même temps). Oracle arrondit sur la taille de 128K. 950/128=7.42, alors Oracle alloue initialement 8 extensions de 128K. Les allocations futures seront à chaque fois de 128K. \n\n*Source: Chapter-4.pdf · PDF p. 9–10*",
+      "seconds": 42.8
+    },
+    {
+      "name": "vector_index",
+      "status": "ready",
+      "vectors": 40,
+      "seconds": 12.0
+    },
+    {
+      "name": "chat",
+      "question": "Quels sont les tablespaces système ?",
+      "status": "completed",
+      "text": "Les tablespaces SYSTEM et SYSAUX sont créés par défaut lors de la création d'une base de données Oracle. \n\n*Source: Chapter-4.pdf · PDF p. 1*\n\nLe tablespace SYSTEM contient en particulier les tables systèmes du dictionnaire de données, il ne peut pas être renommé, supprimé ou mis en OFFLINE. \n\n*Source: Chapter-4.pdf · PDF p. 1*\n\nLe tablespace SYSAUX inclut les données utilisées par certains fonctionnalités et options d'Oracle database. \n\n*Source: Chapter-4.pdf · PDF p. 1*",
+      "sources": 4,
+      "seconds": 7.9
+    },
+    {
+      "name": "chat",
+      "question": "Comment supprimer un tablespace ?",
+      "status": "completed",
+      "text": "Pour supprimer un tablespace, vous devez d'abord le désactiver. Vous pouvez le faire en utilisant la commande ALTER TABLESPACE suivie de l'identifiant du tablespace à désactiver. Une fois le tablespace désactivé, vous pouvez le supprimer en utilisant la commande DROP TABLESPACE. \n\n*Source: Chapter-4.pdf · PDF p. 2*",
+      "sources": 4,
+      "seconds": 6.8
+    },
+    {
+      "name": "chat",
+      "question": "Qui a remporté la Coupe du monde de football ?",
+      "status": "completed",
+      "text": "L'évidence fournie ne contient aucune information sur la Coupe du monde de football, elle parle plutôt de concepts liés à la gestion des données dans un système de base de données. \n\n*Source: Chapter-4.pdf · PDF p. 1, 4*",
+      "sources": 4,
+      "seconds": 6.7
+    }
+  ],
+  "limits": "Structural and availability checks only. Review pedagogical and factual correctness separately.",
+  "follow_up_verification": {
+    "file": "retrieval_verification.json",
+    "note": "The deletion-question retrieval in this run preceded the hybrid-retrieval correction. Its original output is retained; the follow-up contains the corrected generated answer and top page."
+  }
+}
